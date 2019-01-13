@@ -24,7 +24,7 @@
 ;;(j/insert-multi! db :user
 ;;                [{:username "bob" :password "builder" :email "muhemail"}])
 ;;(println (j/query db ["select * from user"] {:row-fn :password}))
-
+;;Does it change tho?
 (def card-table-ddl
   (j/create-table-ddl :cards
                       [
